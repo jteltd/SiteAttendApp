@@ -1,1 +1,1 @@
-{"name":"SiteAttendApp","short_name":"SiteAttendApp","start_url":"/","display":"standalone","theme_color":"#08579f","background_color":"#08579f","icons":[{"src":"assets/icons/512x512.png","sizes":"512x512","type":"image/png"}]}
+{"name":"SiteAttendApp","short_name":"SiteAttendApp","start_url":"/","display":"standalone","theme_color":"#08579f","background_color":"#08579f","icons":[{"src":"assets/images/logo.png","sizes":"512x512","type":"image/png"}]}
