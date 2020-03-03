@@ -1023,6 +1023,9 @@ section.lazy-placeholder:after {
 .cid-rRClcPFDVT .table-wrapper {
   margin: 0 auto;
 }
+.cid-rRClcPFDVT .btn {
+  word-break: normal;
+}
 .cid-rRClcPFDVT table {
   width: 50% !important;
   margin-top: 6px;
