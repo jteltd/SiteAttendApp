@@ -14,14 +14,24 @@
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = 'precache-v2020-03-06';
-const RUNTIME = 'runtime-v2020-03-06';
+const PRECACHE = 'precache-v2020-04-30';
+const RUNTIME = 'runtime-v2020-04-30';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
   'index.html',
   './', // Alias for index.html
-    '/fallback.html'
+    'fallback.html',
+    'activate.html',
+    'jobs.html',
+    'login.html',
+    'shiftmessage.html',
+    'assets/images/Attention-Red-32.png',
+    'assets/images/check-mark-circle-thin-188EF4-32.png',
+    'assets/images/notification-bell-8-32.png',
+    'assets/images/site-attend-logo-rgb-112x122.png',
+    'assets/images/upnext-188EF4-angel-up-circle-thin-32.png',
+    'assets/images/working-1ba820-green-32-32x32.png'
 ];
 
 // The install handler takes care of precaching the resources we always need.
@@ -67,7 +77,7 @@ self.addEventListener('fetch', event => {
             });
           });
         });
-      }).catch(() => caches.match('/fallback.html'))
+      }).catch(() => caches.match('fallback.html'))
     );
   }
 });
