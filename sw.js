@@ -31,7 +31,8 @@ const PRECACHE_URLS = [
     'assets/images/notification-bell-8-32.png',
     'assets/images/site-attend-logo-rgb-112x122.png',
     'assets/images/upnext-188EF4-angel-up-circle-thin-32.png',
-    'assets/images/working-1ba820-green-32-32x32.png'
+    'assets/images/working-1ba820-green-32-32x32.png',
+    'assets/images/spinning.gif'
 ];
 
 // The install handler takes care of precaching the resources we always need.
